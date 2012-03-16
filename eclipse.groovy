@@ -1,9 +1,4 @@
 ant = new AntBuilder()
-//def proxyHost = ""
-//def proxyPort = ""
-//System.properties["http.proxyHost"]=proxyHost
-//System.properties["http.proxyPort"]=proxyPort
-//ant.setproxy(proxyhost:proxyHost, proxyport:proxyPort)
 def eclipseHome = System.console().readLine("\n\n> Enter your eclipse home directory: ")
 tempPlugsDir = "eclipse"
 
